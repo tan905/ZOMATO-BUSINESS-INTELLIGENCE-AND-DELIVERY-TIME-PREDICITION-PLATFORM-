@@ -94,12 +94,10 @@ Customer order recency (days since most recent order) using window functions.
   <tr>
     <td width="50%" align="center">
       <b>Page 1: Executive Summary</b><br/>
-      <img src="assets/page1_executive.png" alt="Page 1: Executive Summary" width="100%"/>
       <img width="1366" height="768" alt="Screenshot (101)" src="https://github.com/user-attachments/assets/6311cc5b-3a2e-400e-8aa4-733ec4e6409f" />
     </td>
     <td width="50%" align="center">
       <b>Page 2: Customer Analytics</b><br/>
-      <img src="assets/page2_customer.png" alt="Page 2: Customer Analytics" width="100%"/>
       <img width="1366" height="768" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/cfda56e2-401e-428c-83bd-b254a9d10602" />
 
   </td>
@@ -107,31 +105,29 @@ Customer order recency (days since most recent order) using window functions.
   <tr>
     <td width="50%" align="center">
       <b>Page 3: Delivery & Operations</b><br/>
-      <img src="assets/page3_delivery.png" alt="Page 3: Delivery & Operations" width="100%"/>
       <img width="1366" height="768" alt="Screenshot (103)" src="https://github.com/user-attachments/assets/ae82bda9-f933-4405-b791-b50cda620f18" />
     </td>
     <td width="50%" align="center">
       <b>Page 4: Payments & Promotions</b><br/>
-      <img src="assets/page4_payments.png" alt="Page 4: Payments & Promotions" width="100%"/>
       <img width="1366" height="768" alt="Screenshot (104)" src="https://github.com/user-attachments/assets/4b87eee3-04a3-4276-a345-bdbb721b9fcc" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <b>Page 5: Restaurant & Menu</b><br/>
-      <img src="assets/page5_restaurant.png" alt="Page 5: Restaurant & Menu" width="100%"/>
       <img width="1366" height="768" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/575f85b0-3330-4528-b8ed-f9b2c9ad7864" />
     </td>
     <td width="50%" align="center">
       <b>Page 6: Customer Feedback</b><br/>
-      <img src="assets/page6_feedback.png" alt="Page 6: Customer Feedback" width="100%"/>
       <img width="1366" height="768" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/e37a5c67-94a6-4d86-ae35-ccb396886827" />
     </td>
   </tr>
 </table>
 
 ---
-## PROJECT STRUCTURE 
+##  Project Folder Structure
+
+```text
 Zomato_Business_Intelligence_Project/
 ├── data/
 │   ├── raw/
@@ -159,9 +155,13 @@ Zomato_Business_Intelligence_Project/
 │   └── business_insights_report.pdf
 ├── powerbi/
 │   └── zomato_dashboard.pbix
+├── images/
+│   └── (exported chart images for README/report)
 ├── documentation/
 │   └── prd.docx
 ├── README.md
+└── requirements.txt
+```
 
 ## Future Improvements
 Real-Time Inference API: Expose the trained delivery time regression and churn classification models via a FastAPI / Flask REST endpoint for live order ETA updates[cite: 1].
